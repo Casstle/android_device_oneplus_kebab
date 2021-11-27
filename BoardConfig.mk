@@ -50,3 +50,5 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # inherit from the proprietary version
 -include vendor/oneplus/kebab/BoardConfigVendor.mk
+BOARD_AVB_ALGORITHM := SHA256_RSA2048
+BOARD_AVB_KEY_PATH := /srv/keys/releasekey.key
