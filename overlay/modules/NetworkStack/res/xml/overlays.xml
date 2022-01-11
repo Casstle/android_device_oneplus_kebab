@@ -15,27 +15,9 @@
      limitations under the License.
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-	<item target="string/config_captive_portal_http_url" value="http://fw.casscoenterprises.com/gen_204/"</item>
-	<item target="string/config_captive_portal_https_url" value="https://fw.casscoenterprises.com/gen_204/"</item>
-	<item target="string-array/config_captive_portal_http_urls">
-		<item>http://conntest.yxa.at/204.php</item>
-		<item>http://httpstat.us/204</item>
-	</item>
-	<item target="string-array/config_captive_portal_https_urls">
-		<item>http://conntest.yxa.at/204.php</item>
-		<item>https://httpstat.us/204</item>
-	</item>
-	<item target="string-array/config_captive_portal_fallback_urls"/>
-	    <item>http://204.ecloud.global</item>
-	    <item>http://connectivity.ecloud.global</item>
-	</item>
-        <!-- Configuration value for DhcpResults -->
-	<item target="string-array/config_default_dns_servers">
-	    <item>1.1.1.1</item>
-	    <item>9.9.9.9</item>
-	    <item>208.67.222.222</item>
-	</item>
-	<!-- string-array name="config_captive_portal_http_urls">
+	<string name="config_captive_portal_http_url">http://fw.casscoenterprises.com/gen_204/</string>
+	<string name="string/config_captive_portal_https_url">https://fw.casscoenterprises.com/gen_204/</string>
+	<string-array name="config_captive_portal_http_urls">
 		<item>http://conntest.yxa.at/204.php</item>
 		<item>http://httpstat.us/204</item>
 	</string-array>
@@ -44,9 +26,11 @@
 		<item>https://httpstat.us/204</item>
 	</string-array>
         <string-array type="array" name="config_captive_portal_fallback_urls"/>
+	    <item>http://204.ecloud.global</item>
+	    <item>http://connectivity.ecloud.global</item>
 	<string-array name="config_default_dns_servers">
 	    <item>1.1.1.1</item>
 	    <item>9.9.9.9</item>
 	    <item>208.67.222.222</item>
-	</string-array-->
+	</string-array>
 </resources>
