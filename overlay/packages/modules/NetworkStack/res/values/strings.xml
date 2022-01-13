@@ -18,19 +18,19 @@
 	<string name="config_captive_portal_http_url">http://fw.casscoenterprises.com/gen_204/</string>
 	<string name="config_captive_portal_https_url">https://fw.casscoenterprises.com/gen_204/</string>
 	<string-array name="config_captive_portal_http_urls">
-		<item>http://conntest.yxa.at/204.php</item>
-		<item>http://httpstat.us/204</item>
+		<item type="string">http://conntest.yxa.at/204.php</item>
+		<item type="string">http://httpstat.us/204</item>
 	</string-array>
 	<string-array type="array" name="config_captive_portal_https_urls">
-		<item>http://conntest.yxa.at/204.php</item>
-		<item>https://httpstat.us/204</item>
+		<item type="string">http://conntest.yxa.at/204.php</item>
+		<item type="string">https://httpstat.us/204</item>
 	</string-array>
         <string-array type="array" name="config_captive_portal_fallback_urls"/>
-	    <item>http://204.ecloud.global</item>
-	    <item>http://connectivity.ecloud.global</item>
+	    <item type="string">http://204.ecloud.global</item>
+	    <item type="string">http://connectivity.ecloud.global</item>
 	<string-array name="config_default_dns_servers">
-	    <item>1.1.1.1</item>
-	    <item>9.9.9.9</item>
-	    <item>208.67.222.222</item>
+	    <item type="string">1.1.1.1</item>
+	    <item type="string">9.9.9.9</item>
+	    <item type="string">208.67.222.222</item>
 	</string-array>
 </resources>
