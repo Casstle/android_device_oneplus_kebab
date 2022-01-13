@@ -16,17 +16,17 @@
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 	<string-array name="config_captive_portal_http_urls">
-		<item>@string/http://conntest.yxa.at/204.php</item>
-		<item>@string/http://httpstat.us/204</item>
+	    <item>@string/http://conntest.yxa.at/204.php</item>
+	    <item>@string/http://httpstat.us/204</item>
 	</string-array>
 	<string-array type="array" name="config_captive_portal_https_urls">
-		<item>@string/http://conntest.yxa.at/204.php</item>
-		<item>@string/https://httpstat.us/204</item>
+	    <item>@string/http://conntest.yxa.at/204.php</item>
+	    <item>@string/https://httpstat.us/204</item>
 	</string-array>
         <string-array type="array" name="config_captive_portal_fallback_urls"/>
 	    <item>@string/http://204.ecloud.global</item>
 	    <item>@string/http://connectivity.ecloud.global</item>
-	<string-array name="config_default_dns_servers">
+	<string-array type="array" name="config_default_dns_servers">
 	    <item>@string/1.1.1.1</item>
 	    <item>@string/9.9.9.9</item>
 	    <item>@string/208.67.222.222</item>
