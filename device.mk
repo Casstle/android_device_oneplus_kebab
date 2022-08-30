@@ -44,7 +44,9 @@ PRODUCT_COPY_FILES += \
 
 # Device init scripts
 PRODUCT_PACKAGES += \
-    fstab.qcom
+    fstab.qcom \
+    AuroraStore \
+    AuroraServices
 
 PRODUCT_SHIPPING_API_LEVEL := 30
 
