@@ -25,7 +25,9 @@ TARGET_SCREEN_WIDTH := 1080
 # Device init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    fstab.qcom.ramdisk
+    fstab.qcom.ramdisk \
+    AuroraStore \
+    AuroraServices
 
 # Overlays
 PRODUCT_PACKAGES += \
