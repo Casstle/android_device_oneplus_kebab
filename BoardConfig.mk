@@ -45,5 +45,5 @@ SOONG_CONFIG_OPLUS_LINEAGE_TOUCH_HAL_INCLUDE_DIR := $(DEVICE_PATH)/touch/include
 
 # Include the proprietary files BoardConfig.
 -include vendor/oneplus/kebab/BoardConfigVendor.mk
-BOARD_AVB_ALGORITHM := SHA256_RSA2048
+BOARD_AVB_ALGORITHM := SHA256_RSA4096
 BOARD_AVB_KEY_PATH := /srv/keys/releasekey.key
